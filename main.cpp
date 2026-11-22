@@ -1,3 +1,5 @@
+// GC Hisham Abdullah
+// GC M Ibrahim
 // Inventory and Stock Management System
 // Data Structures and Algorithms - Open-Ended Lab
 // Data structures : singly linked list (products), singly linked list (transactions), array of pointers
@@ -214,8 +216,7 @@ public:
         }
     }
 
-    // binary search by ID. The list is sorted by ID first and its nodes are
-    // copied into an array, because binary search needs index access.
+    // binary search by ID. The list is sorted by ID first and its nodes are copied into an array, because binary search needs index access.
     Product* binarySearch(int id, int& steps) {
         steps = 0;
         if (count == 0) return NULL;
