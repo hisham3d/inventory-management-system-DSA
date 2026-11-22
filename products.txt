@@ -1,0 +1,4 @@
+101 85000 10 3 Laptop
+102 250 50 20 USB Cable
+103 1200 5 5 Wireless Mouse
+104 3500 0 4 Keyboard
